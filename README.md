@@ -7,4 +7,12 @@ Converter from 3d models to cesium 3d tileset
 ```
 git clone https://github.com/TopWorld2040/tbuilder.git && cd tbuilder
 ```
-4. 
+4. example 실행
+```
+npx gulp citygml --tileset seoul
+npx gulp model --tileset drone
+npx gulp model --tileset hdmap
+npx gulp model --tileset palace
+```
+5. 
+6. 
