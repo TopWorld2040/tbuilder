@@ -1,0 +1,46 @@
+{
+    "tileLevel": 16,
+    "maxTextureSize": 1024,
+    "layers": [
+        {
+            "tileset": "hdmap",
+            "layerName": "건물통합정보마스터",
+            "fileType": "obj",
+            "pathPattern": "./example/건물통합정보마스터/**/*.obj",
+            "description": "패턴 건물",
+            "yAxisUp": true,
+            "srid": "unity",
+            "useIndexJson": true
+        },
+        {
+            "tileset": "seoul",
+            "layerName": "서울citygml",
+            "fileType": "citygml",
+            "pathPattern": "./example/citygml/seoul-citygml2.*xml",
+            "description": "",
+            "yAxisUp": false,
+            "srid": "5186",
+            "useIndexJson": false
+        },
+        {
+            "tileset": "palace",
+            "layerName": "경복궁근정전3DS건물",
+            "fileType": "3ds",
+            "pathPattern": "./example/palace/**/*.3ds",
+            "description": "",
+            "yAxisUp": false,
+            "srid": "5181",
+            "useIndexJson": false
+        },
+        {
+            "tileset": "drone",
+            "layerName": "드론3D_수동",
+            "fileType": "obj",
+            "pathPattern": "./example/드론3D_수동/**/*.obj",
+            "description": "",
+            "yAxisUp": false,
+            "srid": "32652",
+            "useIndexJson": false
+        }
+    ]
+}
