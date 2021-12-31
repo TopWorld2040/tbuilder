@@ -1,0 +1,35 @@
+{
+  "name": "tbuilder",
+  "version": "1.0.0",
+  "description": "Converter from 3d models to cesium 3d tileset",
+  "main": "gulpfile.esm.js",
+  "config": {
+    "node-options": "--max-old-space-size=4096"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gltf-transform/core": "^1.1.1",
+    "@gltf-transform/extensions": "^1.1.1",
+    "@gltf-transform/functions": "^1.1.1",
+    "canvas": "^2.8.0",
+    "citygml-to-3dtiles": "^0.1.2",
+    "glob": "^7.2.0",
+    "global-mercator": "^3.1.0",
+    "gltf-pipeline": "^3.0.4",
+    "jimp": "^0.16.1",
+    "jsdom": "^18.1.0",
+    "minimatch": "^3.0.4",
+    "patch-package": "^6.4.7",
+    "proj4": "^2.7.5",
+    "sqlite3": "^5.0.2",
+    "three-universal": "^0.125.2"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2"
+  }
+}
