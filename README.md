@@ -18,5 +18,5 @@ npx gulp model --tileset drone
 npx gulp model --tileset hdmap
 npx gulp model --tileset palace
 ```
-6. 
+6. 한계점
 7. 
