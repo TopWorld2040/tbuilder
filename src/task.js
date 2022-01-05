@@ -127,3 +127,11 @@ export function buildTileset(config, tileset) {
     }))
     .pipe( gulp.dest(`./dest/${tileset}/`) );
 }
+
+/*
+edit node_modules\three-universal\examples\node-jsm\loaders\FBXLoader.js
+npx patch-package tree-universal
+
+edit node_modules\@jimp\jpeg\node_modules\jpeg-js\lib\decoder.js
+npx patch-package @jimp/jpeg/jpeg-js
+*/
