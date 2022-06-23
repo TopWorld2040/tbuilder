@@ -11,6 +11,7 @@ git clone https://github.com/seoul-openlab/tbuilder.git && cd tbuilder
 npm install
 ```
 4. config.json 설명
+```
 tbuilder는 command line에 복잡하게 파라미터를 전달하는 방법이 아닌 config.json 파일에 싫행설정을 입력하여 실행된다.
 config.json 파일의 위치는 tbuilder node 모듈의 root에 존재해야한다.
 config.json 파일의 구성은 Cesium 3D tileset를 생산에 필요한 설정들로 구성로 아래의 설명과 같다.
@@ -30,6 +31,7 @@ config.json 파일의 구성은 Cesium 3D tileset를 생산에 필요한 설정�
         },
     ]
 }
+```
 5. example 실행
 ```
 npx gulp citygml --tileset seoul
