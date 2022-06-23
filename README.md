@@ -42,4 +42,4 @@ npx gulp model --tileset palace
 6. 한계점
 - CityGML 텍스터 지원 안됨
 - CityGML LOD2레벨만 지원됨
-- 자세한 CityGML관련 한계점 참조 https://github.com/njam/citygml-to-3dtiles
+- CityGML관련 자세한 한계점은 https://github.com/njam/citygml-to-3dtiles 참조
